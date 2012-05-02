@@ -1,0 +1,29 @@
+<h1>Home#index</h1>
+<p>Find me in app/views/home/index.html.erb</p>
+<h1>Welcome to AkaruiLabs </h1>
+<h2>I am mukul</h2>
+<table border="1">
+<tr>
+<td>row 1, cell 1</td>
+<td>row 1, cell 2</td>
+</tr>
+<tr>
+<td>row 2, cell 1</td>
+<td>row 2, cell 2</td>
+</tr>
+</table>
+<ol>
+<li>Coffee</li>
+<li>Milk</li>
+</ol>
+<p>
+<%= link_to "go to google", 'http://www.google.com' %>
+<p><%= link_to "go to facebook", 'http://www.facebook.com' %>
+<p><%= link_to "go to yahoo", 'http://www.yahoo.com' %>
+<p><%= link_to "go to my page", my_page_path %>	
+
+<form name="input" action="http://0.0.0.0:3000/submit/" method="get">
+
+Password: <input type="text" name="password" />
+
+<input type="submit" value="Login" />
